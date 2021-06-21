@@ -1,0 +1,119 @@
+
+.title {
+    color: #7597D1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: right;
+}
+
+.subtitle {
+    color: #7597D1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.title-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 2vw;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+    align-content: right;
+    width: 100%;
+}
+
+.art-box{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 40%;
+}
+
+.doc-body{
+    padding: 2vw 10vw;
+}
+
+.row-box{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-bottom: 1.5vw;
+}
+
+.box-padding{
+
+    margin-right: 1.5vw;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 14.8vw;
+    height: 14.8vw;
+}
+
+.box-title{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    overflow-wrap: normal;
+    width: 50%;
+    color: white;
+
+}
+
+.box1{
+    background-color: #7597D1;
+}
+
+.box2{
+    background-color: #F86624;
+}
+
+.box3{
+    background-color: #70566D;
+}
+.box4{
+    background-color: #ADD110;
+}
+
+.box5{
+    background-color: #0ACA8C;
+}
+
+.box-icon {
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 0.5vw;
+    padding-bottom: 0.5vw;
+    width: 95%;
+    height: 95%;
+}
+
+.icon-row{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.info-row{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1vw;
+}
